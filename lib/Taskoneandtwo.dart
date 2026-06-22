@@ -15,7 +15,6 @@ print('Age : $age');
 print('Goals : $goals');
 print('==================');
 }*/
-/////////////////////////////////////////////////
 
 /*import 'dart:io';
 void main(){
@@ -32,9 +31,9 @@ print('Price : $price');
 print('Quantity :$quantity');
 print('Total : $total');
 }*/
-/*void main() {
+void main() {
   String name = 'Ahmed';
   int age = 22;
 
   print('My Name is $name $age');
-}*/
+}
