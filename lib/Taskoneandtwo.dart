@@ -23,7 +23,7 @@ print('Enter Product Name');
 String name = stdin.readLineSync()!;
 print('Enter Product Price');
 double price = double.parse(stdin.readLineSync()!);
-print('Enter Quantity');
+print('Enter Quantity');;
 int quantity= int.parse(stdin.readLineSync()!);
 double total = price*quantity;
 print('Product : $name');
