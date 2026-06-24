@@ -1,5 +1,9 @@
 //import 'dart:io';
 
+//import 'dart:io';
+
+import 'dart:io';
+
 ///////////////////////////////////////////////////
 
 // المحاضره رقم 4
@@ -85,3 +89,97 @@ int Age = int.parse(stdin.readLineSync()!);
 print('Your Age is $Age');
 }*/
 
+// المحاضره العاشره // operators in dart //
+/*void main(){
+int numberOne=10;
+int numberTwo=2;
+int result=numberOne+numberTwo;
+print('Result=$result');
+}*/
+
+/*void main(){
+int numberOne=10;
+int numberTwo=2;
+int result=numberOne*numberTwo;
+print('Result=$result');
+}*/
+
+/*void main(){
+int numberOne=10;
+int numberTwo=2;
+double result=numberOne/numberTwo; // ملاحظه هامه جدااااا ناتج القسمه دايما بيكون رقم عشري فا لازم احط متغير بيشيل رقم عشري من النوع double وليس int
+print('Result=$result');
+}*/
+
+/*void main(){
+int numberOne=10;
+int numberTwo=2;
+int result=numberOne%numberTwo; 
+print('Result=$result');
+}*/
+//لو انا عايز اوقف كود اعمل ايه علامه /// لو الكود كبيره /* Code */
+/////////////////////////////////////////////
+
+ // المحاضره 12 String //
+ //خصائص المتغيرات من النوع String
+/*void main(){
+//String name = "Ahmed's";
+//String name = 'Ahmed\'s';
+//String name = r"Ahmed\'s";
+//print(name);
+}*/
+/*void main(){
+String name ="Ahmed\'s";
+print(name.length);
+}*/
+
+/*void main(){
+String name ="Ahmed\nAli";
+print(name);
+}*/
+
+/*void main(){
+String name = 'Ahmed\tAli';
+print(name);
+}*/
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//المحاضره رقم ١٤ // conditional statement //
+
+/*void main(){
+  print('Enter Your Age::');
+int age = int.parse(stdin.readLineSync()!);
+if(age>=20)
+print('Adult');
+print('Adult');
+print('Adult');
+print('End');
+} /// ملوحظه هامه جداااااا لو معملتش { } الشرط يتحكم في السطر الاول فقط والباقي بيتفذ عادي */
+
+
+/*void main(){
+print('Enter Your Age::');
+int age =int.parse(stdin.readLineSync()!);
+if(age>=20){
+  print('Adult');
+}
+else{
+  print('Not an adult');
+}
+print('The End');
+}*/
+/*void main(){
+print('Enter Number');
+double number = double.parse(stdin.readLineSync()!);
+
+if(number>=90){
+  print('Excellent');
+}
+else if(number>=70){
+  print('Good');
+
+}
+else{
+  print('Bad');
+}
+}*/
+////////////////////////////////////////////////
