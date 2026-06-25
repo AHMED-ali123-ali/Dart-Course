@@ -1,3 +1,5 @@
+import 'dart:io';
+
 ///1//
 /*void main(){
 String name ;
@@ -376,4 +378,200 @@ print('Total : $total');
   String name = 'Ahmed';
   int age = 22;
   print('My Name is $name $age');
+}*/  
+/*void main(){
+print('Enter First Team Name');
+String nameFirstTeam = stdin.readLineSync()!;
+print('Enter First Team Goals'); 
+int firstTeamGoals = int.parse(stdin.readLineSync()!);
+
+print('Enter Second Team Name');
+String nameSecondTeam = stdin.readLineSync()!;
+print('Enter Second Team Goals'); 
+int secondTeamGoals = int.parse(stdin.readLineSync()!);
+
+if(firstTeamGoals>secondTeamGoals){
+ print('Winner : $nameFirstTeam');
+
+}
+ else if(firstTeamGoals<secondTeamGoals){
+  print('Winner : $nameSecondTeam');
+}
+else{
+print('Draw Match');
+}}
+*/
+
+
+/*void main(){
+print('Enter Your Name');
+String name = stdin.readLineSync()!;
+print('Enter Your Degree');
+double degree = double.parse(stdin.readLineSync()!);
+if(degree>=90){
+  print('Your Collage Medicine');
+}
+else if(degree>=80){
+  print('Your Collage  Engineering');
+}
+else if (degree>=70){
+  print('Your Collage Computer Science');
+}
+else if(degree>=60){
+
+print(' Your Collage Business');
+
+}
+else{
+  print('Not Accepted');
+}
+}
+*/
+/*void main(){
+print('Enter Your User Name');
+String usaerName = stdin.readLineSync()!;
+switch(usaerName){
+ case 'Ahmed':
+ print('Access Granted');
+ break;
+ case 'Ali':
+ print('Access Granted');
+ break;
+ case 'Mohamed':
+ print('Access Granted');
+ break;
+ default:
+ print('Access Denied');
+}}*/
+/*void main(){
+  print('Enter Your User Name');
+String usaerName = stdin.readLineSync()!;
+if(usaerName=='Ahmed' || usaerName=='Ali' || usaerName=='Mohamed'){
+ print('Access Granted');
+}
+else{
+  print('Access Denied');
+}}*/
+
+/*void main(){
+print('Enter Your Number of gigabytes consumed');
+int number = int.parse(stdin.readLineSync()!);
+if(number<=10){
+  print('Light User');
+}
+else if(number<=30){
+  print('Normal User');
+}
+else if (number<=50){
+  print('Heavy User');
+}
+else{
+  print('Very Heavy User');
+}}*/
+/*void main(){
+print('Enter Namber One');
+double namberOne=double.parse(stdin.readLineSync()!);
+print('Choose opeator ( + , - , * , / , %)');
+String opeator = stdin.readLineSync()!;
+print('Enter Namber Two');
+double namberTwo =double.parse(stdin.readLineSync()!);
+
+if(opeator=='+'){
+ double total =namberOne+namberTwo;
+ print('NamberOne : $namberOne\nOpeator : $opeator\nNamberTwo : $namberTwo = $total');
+}
+else if(opeator=='-'){
+   double total =namberOne-namberTwo;
+ print('NamberOne : $namberOne\nOpeator : $opeator\nNamberTwo : $namberTwo = $total');
+ 
+}
+else if (opeator=='*'){
+ double total =namberOne*namberTwo;
+ print('NamberOne : $namberOne\nOpeator : $opeator\nNamberTwo : $namberTwo = $total');
+}
+else if(opeator=='/'){
+  if(namberTwo!=0){
+ double total =namberOne/namberTwo;
+ print('NamberOne : $namberOne\nOpeator : $opeator\nNamberTwo : $namberTwo = $total');
+  }
+  else{
+    print('Error');
+  }
+}
+else if (opeator=='%'){
+   double total =namberOne%namberTwo;
+ print('NamberOne : $namberOne\nOpeator : $opeator\nNamberTwo : $namberTwo = $total');
+}
 }*/
+
+/*void main(){
+print('Enter Name Counsumer');
+String name = stdin.readLineSync()!;
+
+print('Number of completed tasks');
+int number = int.parse(stdin.readLineSync()!);
+
+if(number>=100){
+  print('Excellent Employee');
+}
+else if(number>=70){
+  print('Good Employee');
+}
+else if(number>=40){
+  print('Average Employee');
+}
+else{
+  print('Needs Improvement');
+}}
+*/
+/*void main(){
+print('Enter Your Age::');
+int age =int.parse(stdin.readLineSync()!);
+if(age<12){
+  print('50 Pounds');
+}
+else if (age<60){
+print('100 Pounds');
+}
+else{
+  print('70');
+}
+}*/
+
+/*void main(){
+print('Entre Plyer Name');
+String name = stdin.readLineSync()!;
+print('Enter Player Goals');
+int goals =int.parse(stdin.readLineSync()!);
+if(goals>=30){
+  print('=====================');
+  print('Player Report');
+  print('=====================');
+  print('Name : $name');
+  print('Goals : $goals');
+  print('Level : World Class ');
+}
+else if (goals>=20){
+  print('=====================');
+  print('Player Report');
+  print('=====================');
+  print('Name : $name');
+  print('Goals : $goals');
+  print('Level :  Excellent');
+}
+else if (goals>=10){
+    print('=====================');
+  print('Player Report');
+  print('=====================');
+  print('Name : $name');
+  print('Goals : $goals');
+  print('Level :  Good');
+}
+else{
+   print('=====================');
+  print('Player Report');
+  print('=====================');
+  print('Name : $name');
+  print('Goals : $goals');
+  print('Level :  Beginner');
+}}*/

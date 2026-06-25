@@ -2,7 +2,9 @@
 
 //import 'dart:io';
 
-import 'dart:io';
+//import 'dart:io';
+
+///import 'dart:io';
 
 ///////////////////////////////////////////////////
 
@@ -183,3 +185,41 @@ else{
 }
 }*/
 ////////////////////////////////////////////////
+//المحاضره رقم ١٦ // Switch
+/*void main(){
+print('Enter Your grade');
+String grade = stdin.readLineSync()!.toUpperCase();
+switch(grade){
+  case'A':
+  print('Excellent');
+ break;
+   case'B':
+   print('Very good');
+  break;
+  case 'C':
+  print('Fair');
+  break;
+  case'F':
+  print('Failed');
+  break;
+  default:
+  print('Wrong Code');
+}
+}
+*/
+/// Scope // اي متغير بيتم انشاءه داخل {} فهو متاح داخل الاقواس فقط // قاعده مهمة 
+/// 
+// Dynamic//
+// var//
+// مهم جدااا لان هنا بيتحدد القيمه بناء علي القيمه الي هتيجي في الحاله الاول بس 
+/*main(){
+var n1 = 'Ahmed';
+n1 ='Ali';
+n1 =9;
+}*/
+/*main(){
+var b1;
+b1 ='Ahmed';
+b1='Ali';
+b1 =6;
+}*/
