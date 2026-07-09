@@ -8,6 +8,8 @@
 
 import 'dart:io';
 
+import 'oop.dart';
+
 ///import 'dart:io';
 
 ///////////////////////////////////////////////////
@@ -638,3 +640,81 @@ print('Result = $result');
 return result;
 
 }*/
+
+// oop//
+
+/*main(){
+student person =student('Ahmed Ali', 22);
+person.name='Ali Riyad';
+person.setAge(20);
+print(person.name);
+print(person.getAge());
+person.setAge(33);
+print(person.getAge());
+}*/
+
+/*main(){
+Student c1 =Student();
+c1.setName('Ahmed Ali');
+print(c1.getName());
+print('====================');
+c1.setCode(220220420);
+print(c1.getCode());
+print('====================');
+c1.setSpecialization('BIS');
+print(c1.getSpecialization());
+print('====================');
+}*/
+
+/*main(){
+Student c1 =Student();
+c1.SetterName('');
+print(c1.GetterName());
+c1.SetterAge(22);
+print(c1.GetterAge());
+}
+*/
+
+
+/*void main(){
+BankAccount bank =BankAccount();
+bank.setOwnerName('Ahmed Ali');
+print(bank.getOwnerName());
+
+bank.setaccountNamber(2);
+print(bank.getaccountNamber());
+
+bank.setbalance(5000);
+print(bank.getbalance());
+}*/
+
+
+void main() {
+  Mobilephone phone = Mobilephone();
+
+  phone.setBrand('Samsung');
+  phone.setModel('S24 Ultra');
+  phone.setBattery(60);
+  phone.setIsOn(false);
+
+  print('====================');
+  phone.showInfo();
+
+  print('====================');
+  phone.turnOn();
+
+  print('====================');
+  phone.usePhone();
+
+  print('====================');
+  phone.usePhone();
+
+  print('====================');
+  phone.usePhone();
+
+  print('====================');
+  phone.charge();
+
+  print('====================');
+  phone.showInfo();
+}
